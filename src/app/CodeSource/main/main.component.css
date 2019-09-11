@@ -1,0 +1,34 @@
+.center {
+    display: flex;
+    justify-content: center;
+  }
+ 
+.center1 {
+    display: flex;
+    justify-content: center;
+    color: red;
+  }
+
+.center2 {
+    display: flex;
+    justify-content: center;
+    color: blue;
+  }
+  .winner {
+    color:green;
+  }
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: auto;
+    width: 900px;
+    background-color: #b3d7ff;
+    border-radius: 10px;
+  }
+
+ 

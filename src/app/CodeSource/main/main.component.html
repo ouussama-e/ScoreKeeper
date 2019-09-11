@@ -1,0 +1,37 @@
+<div class="main">
+<br>
+<div class="container text-center" >
+    <br>
+<div *ngIf="GameOver ; else elseBlock" class="center1" ><h2> Game Over </h2></div>
+<ng-template #elseBlock > <div class="center2"><h2> Playing </h2></div> 
+                          
+</ng-template>
+<div class="center" >
+    <h1> <span id="p1Display" [ngStyle]="{'color': style1 ? 'black' : (style11 ? 'green' : null) }" > 
+        {{score1}}</span> to <span id="p2Display" [ngStyle]="{'color': style2 ? 'black' : (style22 ? 'green' : null) }"> {{score2}} </span></h1>
+</div>
+
+
+<br>
+<div class="center" >
+    <button id="p1" [disabled]="GameOver"  class="btn btn-primary" (click)="increment1()" >Player One</button>
+
+    <button type="button" class="btn btn-danger" disabled ><span>VC</span></button>
+
+    <button id="p2"  [disabled]="GameOver"  class="btn btn-primary" (click)="increment2()" >Player Two</button>
+</div>
+<div class="center" >
+<br>
+<br>
+</div>
+<div class="center" >
+         <p>Playing to : {{ScoreMax}}  </p> 
+</div>
+<div class="center">
+<input  type="number" placeholder="Select Score Max" [(ngModel)]="ScoreMax" >
+
+<button id="reset" class="btn btn-secondary" (click)="reset()"  >Reset</button>
+</div>
+<br><br>
+</div>
+</div>
