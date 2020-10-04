@@ -26,4 +26,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Copyrights 
 This repository is free to use for all purposes, you can redistribute it and/or modify it without any restrictions.
 
-Please feel free to contact us for any further informations or/and help about this repository. If you detected any bugs or you want to suggest some improvements in this go game repository, please feel to submit a pull request or contact me by email oussamaelmousta98@gmail.com
+Please feel free to contact us for any further informations or/and help about this repository. If you detected any bugs or you want to suggest some improvements in this go game repository, please feel to submit a pull request or contact me by email elmoustaphaoui.oussama@gmail.com
